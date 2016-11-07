@@ -41,3 +41,4 @@ redis>=2.10.5
 
 
 # Your custom requirements go here
+https://github.com/ad-m/django-atom/archive/v0.11.0.tar.gz

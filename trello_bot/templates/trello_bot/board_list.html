@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags i18n %}
+{% block content %}
+<div class="well board-list">
+<h2>{% trans 'Boards' %}</h2>
+{% if board_list %}
+<ul>
+    {% for board in board_list %}
+    <li><a href="{{board.get_absolute_url}}">{{board}}</a></li>
+    {% endfor %}
+</ul>
+{% else %}
+    {% trans 'No rows.' %}
+{% endif %}
+</div>
+{% endblock %}

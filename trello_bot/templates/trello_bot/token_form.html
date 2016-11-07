@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <p>Please visit <a href="{{token_url}}">Trello authorization page</a> and copy token. Next to paste it in form below.</p>
+    {% crispy form %}
+{% endblock %}

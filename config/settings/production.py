@@ -175,5 +175,3 @@ ADMIN_URL = env('DJANGO_ADMIN_URL')
 
 # Your production stuff: Below this line define 3rd party library settings
 # ------------------------------------------------------------------------------
-
-TRELLO_APP_KEY = env('TRELLO_APP_KEY')

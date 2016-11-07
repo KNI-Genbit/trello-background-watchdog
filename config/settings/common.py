@@ -40,6 +40,7 @@ THIRD_PARTY_APPS = (
     'allauth',  # registration
     'allauth.account',  # registration
     'allauth.socialaccount',  # registration
+    'trello_bot',
 )
 
 # Apps specific for this project go here.
@@ -252,3 +253,5 @@ ADMIN_URL = r'^admin/'
 
 # Your common stuff: Below this line define 3rd party library settings
 # ------------------------------------------------------------------------------
+
+TRELLO_APP_KEY = env('TRELLO_APP_KEY')
